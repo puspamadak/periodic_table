@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    min-width: auto;
+}
+
+body {
+    padding: 10px;
+    display: inline-block;
+}
+
+table {
+    table-layout: fixed;
+}
+
+#external {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+th,
+td {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+td {
+    background-image: linear-gradient(135deg, rgb(255, 215, 170), rgb(214, 114, 0));
+    transition: transform 100ms;
+}
+
+.none {
+    border: 0;
+    background-color: initial;
+}
+
+.group_header {
+    background-image: linear-gradient(rgb(184, 255, 184), rgb(0, 163, 0));
+    font-size: 1.2em;
+    color: blue;
+}
+
+#corner_header {
+    background-image: linear-gradient(-45deg, rgb(180, 119, 119), rgb(80, 4, 4));
+    color: white;
+}
+
+.period_header {
+    background-image: linear-gradient(-135deg, pink, rgb(255, 39, 147));
+    color: white;
+    font-size: 2em;
+}
+
+.lanthanide_header {
+    background-image: linear-gradient(rgb(0, 92, 0), rgb(0, 221, 0));
+    color: white;
+}
+
+.actinide_header {
+    background-image: linear-gradient(rgb(0, 0, 128), rgb(15, 195, 255));
+    color: white;
+}
+
+#legend {
+    border: 1px solid;
+    background-image: radial-gradient(white, rgb(168, 168, 168));
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 1;
+    font-weight: normal;
+}
+
+td:hover {
+    transform: scale(1.2);
+    background-image: linear-gradient(135deg, rgb(164, 232, 255), rgb(0, 125, 167));
+}
