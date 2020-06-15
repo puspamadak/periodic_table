@@ -81,3 +81,17 @@ td:hover {
     transform: scale(1.2);
     background-image: linear-gradient(135deg, rgb(164, 232, 255), rgb(0, 125, 167));
 }
+
+#name_tag {
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:12em;
+    text-align:center;
+    background-image:linear-gradient(rgb(255,177,0),rgb(255,106,0) 60%);
+    color:white;
+    padding:5px;
+    border:2px solid blue;
+    transform:translateX(-50%) translateY(50%) rotate(45deg) translateY(-4em);
+    z-index:1;
+}
